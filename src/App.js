@@ -18,9 +18,7 @@ function App() {
 	    url: "https://github.com/ecrozatti/GoStack_ConceitosReactJS.git",
       techs: [ "ReactJS","Babel","Webpack" ]
     });
-
     const repository = response.data;
-    
     setRepositories([...repositories, repository]);
   }
 
